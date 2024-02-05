@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.font{
+    font-family: "shippori-antique-b1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.horizontalLine{
+    border-bottom: 2px solid #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+
+html{
+    background-color: #BDC5CD;
+}
+header{
+    position: sticky;
+    height: 500px;
+    top: 50px;
+    right: 0px;
+} 
+.toolbar{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 80px;
+    margin-right: 50px;
+    float: right;
+    list-style: none;
+}
+/* .toolbar li p{
+    writing-mode: vertical-rl;
+    color: #FFFFFF;
+    font-size: 20px;
+} */
+.test{
+    writing-mode: vertical-rl;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+.test:hover{
+    color: #706C6C;
+    transition: 0.5s;
+}
+
+
+
+
+
+body{
+    position: relative;
+    margin-top: -500px;
+}
+.top {
+    width: 100%;
+}
+/* 438px */
+.titleImage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.semiTitle{
+    margin-top: -180px;
+    margin-left: 50px;
+}
+.semiTitle h3{
+    writing-mode: vertical-rl;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+.details{
+    max-width: 54vw;
+    margin-top: 400px;
+}
+.intro{
+    margin-left: 50px;
+}
+.intro .title{
+    font-size: 60px;
+    color: white;
+    float: right;
+}
+.intro img{
+    width: 100%;
+}
+.intro p{
+    margin-top: 40px;
+    color: #28211A; 
+    font-size: 20px; 
+    letter-spacing: 9px;
+    line-height: 160%;
+}
+.intro p span{
+    font-size: 40px;
+}
+.break{
+    margin-bottom: 200px;
+}
+.contact{
+    margin-top: 75px;
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: space-between;
+}
+.contact a{
+    border: 2px solid #FFFFFF;
+    padding: 30px 125px;
+    text-decoration: none;
+}
+.contact a:hover{
+    border: 2px solid #706C6C;
+    transition: 0.5s;
+}
+.contact a h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.contactTitle{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    flex-direction: row-reverse;
+}
+
+footer{
+    width: 100%;
+    height: 133px;
+    background-color: #747474;
+}
+.lastTitle{
+    margin-right: 50px;
+    float: right;
+}
+.lastTitle h2{
+    writing-mode: vertical-rl;
+    /* height: 100%; */
+    margin-top: 50%;
+    /* display: flex;
+    align-items: center; */
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.copyright{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.copyright h3{
+    color: #FFFFFF;
+}
